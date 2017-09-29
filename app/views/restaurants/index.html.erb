@@ -1,0 +1,7 @@
+<div class='row'>
+  <ul>
+    <% @restaurants.each do |restaurant|%>
+      <li> <%=restaurant.name%>  </li>
+      <b>The dish to try: <%=restaurant.cuisine%></b>
+    <% end %>
+</div>
