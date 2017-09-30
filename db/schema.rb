@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20170928190949) do
     t.string "cuisine"
     t.integer "longitude"
     t.integer "latitude"
+    t.integer "creator_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
